@@ -1,23 +1,13 @@
-using System;
 using System.IO;
 using System.Collections.Generic;
 using System.Linq;
+using static Util.CU;
 
 
 namespace Julekalender
 {
 	class Dec1
 	{
-		private static void Log(string msg, params object[] arg)
-		{
-			Console.WriteLine(string.Format(msg, arg));
-		}
-
-		private static void Log(object msg)
-		{
-			Console.WriteLine(msg);
-		}
-		
 		public static void Run()
 		{
 			int a;

@@ -1,8 +1,8 @@
-
+using System;
 
 namespace Util
 {
-	public class Time
+	public class Timing
 	{
 		public static long Time()
 		{

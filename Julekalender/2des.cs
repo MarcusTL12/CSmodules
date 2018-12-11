@@ -1,13 +1,13 @@
-using System;
-
+using Util;
 
 namespace Julekalender
 {
 	class Dec2
 	{
-		public static void test()
+		public static void Test()
 		{
-			Console.WriteLine("hallais");
+			var i = Timing.Time();
+			CU.Log(i);
 		}
 	}
 }

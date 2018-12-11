@@ -18,7 +18,7 @@ namespace Julekalender
 			Console.WriteLine(msg);
 		}
 		
-		public static void run()
+		public static void Run()
 		{
 			int a;
 

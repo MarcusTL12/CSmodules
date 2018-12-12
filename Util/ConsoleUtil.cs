@@ -10,6 +10,13 @@ namespace Util
 			Console.WriteLine(string.Format(msg, arg));
 		}
 
+		public static void Log<T>(T[] msg)
+		{
+			Console.Write("[");
+			Console.Write(string.Join(", ", msg));
+			Console.WriteLine("]");
+		}
+
 		public static void Log(object msg)
 		{
 			Console.WriteLine(msg);

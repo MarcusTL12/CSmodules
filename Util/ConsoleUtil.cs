@@ -17,7 +17,7 @@ namespace Util
 			Console.WriteLine("]");
 		}
 
-		public static void Log(object msg)
+		public static void Log<T>(T msg)
 		{
 			Console.WriteLine(msg);
 		}

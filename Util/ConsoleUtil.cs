@@ -1,5 +1,5 @@
 using System;
-
+using System.Numerics;
 
 namespace Util
 {
@@ -20,6 +20,11 @@ namespace Util
 		public static void Log<T>(T msg)
 		{
 			Console.WriteLine(msg);
+		}
+		
+		public static void Log(Complex msg)
+		{
+			Log("{0} + {1}i", msg.Real, msg.Imaginary);
 		}
 	}
 }
